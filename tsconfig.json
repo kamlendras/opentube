@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(dashboard)/account/page.tsx", "app/components/appearance.tsx", "app/components/avatar.tsx", "app/components/avatar2.jsx", "app/components/copyright.tsx", "app/components/create.tsx", "app/components/keyboard.tsx", "app/components/notifications.tsx", "app/components/switchaccount.tsx", "app/components/watch/dot.tsx", "app/components/watch/download.tsx", "app/components/watch/share.tsx", "app/components/watch/subscribe.tsx"],
+  "exclude": ["node_modules"]
+}
